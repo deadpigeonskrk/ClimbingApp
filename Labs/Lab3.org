@@ -1,0 +1,34 @@
+#+OPTIONS: toc:t num:nil
+#+TITLE: Lab 3. Social robotics
+** Getting started: 
+
+1. Register at https://furhat.io/ (“Get SDK”) and install the SDK and virtual Furhat.
+2. Find your API key at https://furhat.io/profile/user - scroll down after you sign in.
+3. Launch virtual Furhat and Start Remote API.
+4. Clone the repository: https://github.com/vladmaraev/xstate-furhat-starter.
+5. If you wish you can use other ways to control Furhat, namely Kotlin Skill API or Blockly.
+
+   
+** Part A:
+
+1. Create at least two new gestures for Furhat of your liking
+   (e.g. eye-rolling, eye and head movements).
+2. Implement user-tracking for Furhat to attend to the user.
+3. Include your gestures as part of a short demonstration dialogue.
+4. Create one new gesture for Furhat with audio sound. You can also
+   add audio to one of the existing gestures (e.g. anger).
+
+** Part B (1 extra VG point)
+Intergrate Furhat with your previous work so that it can be either
+(you only choose 1 option):
+1. an interface to SISU (continue with Lab1)
+2. an interface to LLM-based dialogue system (continue with Lab2)
+
+
+** Submission
+Report the lab by submitting a link to a pull request containing your
+solution and a short (½ page) report.
+
+** Resources:
+- [[https://docs.furhat.io/][Furhat docs]]
+- [[https://docs.furhat.io/remote-api/][Remote API docs]]
